@@ -36,12 +36,6 @@ dependencies {
     compile deps.catsLaws
     compile deps.monix
 
-    compile libs.scala
-    compile libs.simulacrum
-    compile libs.catsCore
-    compile libs.catsLaws
-    compile libs.monix
-
     testCompile deps.scalaTest
     testRuntime deps.pegdown
 }
